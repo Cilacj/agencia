@@ -1,0 +1,446 @@
+body{
+    overflow-x: hidden;
+}
+#header{
+    position: fixed;;
+    background-color: #242729;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 64px;
+    z-index: 1;
+}
+
+.head{
+    height: 24px;
+    margin-right: 28px;
+}
+#centro{
+    width: 400px;;
+    height: 39px;
+    margin-left: 673px;
+    margin-top: 20px;
+}
+.menu{
+    font-family: Oswald light;
+    font-size: 19px;
+    margin: auto;
+    line-height: 4px;
+    padding: 20px;
+}
+#menu1{
+    width: auto;
+    float: left;    
+}
+#menu2{
+    width: auto;
+    float: left;    
+}
+#menu3{
+    width: auto;
+    float: left;
+    
+}
+#in{
+    width: 99px;
+    height: 35px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 1px;
+    color: white;
+    font-size: 22px;
+}
+#logo{
+    width: 130px;
+    height: 241px;
+    position: fixed;
+    top: 0;
+    left: 400px;
+    background-color: #05497d;
+    border-radius: 0 0 20px 20px;
+    z-index: 2;
+    transition: all .5s;
+}
+#png{
+    margin-top: 31px;
+    margin-left: 27px;
+}
+h3{
+    font-family: Dk canoodle;
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    width: 110px;
+    margin-left: 11px;
+    margin-top: 7px;
+}
+#foot{
+    background-color: black;
+    width: 100vw;
+    height: 105px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+#foto1{
+    width: 100vw;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 64px;
+}
+#noticias{
+    width: 490px;
+    height: 635px;
+    margin-top: 470px;
+    margin-left: 391px;
+    color: #ff682c;
+
+}
+#not{
+    width: 435px;
+    font-family: Oswald;
+    font-size: 12px;
+    color: #05497d;
+}
+td{
+    border-bottom: 1px solid;
+    height: 172px;
+}
+.space{
+    padding-left: 14px;
+}
+.tit{
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ff682c;
+}
+.foo{
+    font-weight: 100;
+    font-size: 12px;
+}
+#viw{
+    width: 469px;
+    height:635px;
+}
+#no{
+    position: absolute;
+    font-family: Dk canoodle;
+    font-size: 20px;
+    margin-left: 392px;
+    top: 400px;
+    color:#ff682c;
+}
+#formulario{
+    position: absolute;
+    left: 673px;
+    top: 150px;
+    left: ;
+    text-align: left;
+    font-family: Oswald;
+}
+input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+textarea{
+    border-radius: 5px;
+}
+#enviar{
+    font-family: Oswald;
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 40px;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+legend{
+    font-weight: bold;
+    font-size: 1.9em;
+}
+#prom{
+    column-count: 2;
+    column-gap: 0;
+    width: 613px;
+    height: 1100px;
+    position: absolute;
+    top: 502px;
+    left: 978px;
+}
+#es1{
+    column-span: all;
+    margin-bottom: 22px;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    opacity: 0.2;  
+    text-decoration: none;   
+}
+a:active{
+    text-decoration: underline;
+}
+
+#h{
+    top: 120px;
+    left: 230px;
+    font-family: Oswald;
+    color: white;
+    font-size: 1.8em;
+    position: absolute;
+    text-align: center;
+}
+#e{
+    top: 530px;
+    left: 38px;
+    font-family: Oswald;
+    color: white;
+    font-size: 1.8em;
+    position: absolute;
+    text-align: center;
+} 
+#a{
+    top: 900px;
+    left: 38px;
+    font-family: Oswald;
+    color: white;
+    font-size: 1.8em;
+    position: absolute;
+    text-align: center;
+}
+#d{
+    position: absolute;
+    top: 428px;
+    left: 366px;
+    font-family: Oswald;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+}
+#r{
+    position: absolute;
+    top: 740px;
+    font-family: Oswald;
+    font-size: 1.8em;
+    color: white;
+    text-align: center;
+    left: 400px;
+}
+#pro{
+    position: absolute;
+    top: 1624px;
+    left: 0;
+    width: 100vw;
+    height: auto;
+}
+#hprom{
+    position: absolute;
+    width: 720px;
+    text-align: right;
+    top:60px;
+    left: 978px;
+    font-size: 40px;
+    font-family: Dk canoodle;
+    color: #ff682c;
+}
+#improm{
+    opacity: 0.5;
+    width: 100vw;
+}
+#des{
+    position: absolute;
+    top: 170px;;
+    font-size: 20px;
+    font-family: Oswald;
+    width: 561px;
+    text-align: right;
+    left: 1135px;
+}
+#prox{
+    position: absolute;
+    font-family: Dk canoodle;
+    left: 978px;
+    top: 400px;
+    font-size: 20px;
+    color: #ff682c;
+}
+#foo{
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+#footer{
+    color: white;
+    font-family: Oswald;
+    font-size: 12px;
+    height: 18px;
+    top: 0px;
+    position: absolute;
+    left: 780px;
+}
+#qs{
+    font-family: Oswald;
+    color: white;
+    width: 1880px;
+    text-align: center;
+}
+#gal{
+    width: 162px;
+    font-family: Oswald;
+    position: absolute;
+    top: 237px;
+    left: 400px;
+}
+#destinos{
+    width: 213px;
+    height: 318px;
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    overflow:scroll;
+}
+
+::-webkit-scrollbar{
+    width: 3px;   
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(100,120,200,0.3);
+}
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgb(5,73,125);
+}
+#fotos{
+    width: 615px;
+    height: 410px;
+    position: absolute;
+    left: 653px;
+    top:  260px;
+}
+#list{
+    width: 615px;
+    height: 90px;
+    position: absolute;
+    top: 691px;
+    left: 653px;
+}
+.li{
+    display: flex;
+    height: 76px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.wi{
+    height: 76px;
+    margin-right: 20px;
+}
+iframe{
+    border: none;
+}
+#pasos{
+    position: absolute;
+    top:130px;
+    left: 1100px;
+    font-family: Oswald;
+    width: 550px;
+    border-left: solid 2px rgba(5,73,125,0.4);
+    padding-left: 60px;
+}
+#inst{
+    width:480px;
+}
+.l{
+    font-size: 14px;
+}
+#fooind{
+    width: 100vw;
+    height: 80px;
+    background-color:#242729;
+    position: absolute;
+    top: 2420px;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+}
+.nota{
+    
+}
+#subme{
+    font-size: 20px;
+}
+#derechos{
+    font-size: 13px;
+}
+#lateral{
+    display: inline;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 75px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 100;
+    background-color:#ff682c;
+}
+#historia{
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left:700px;
+    text-align: left;
+    font-family: Dk canoodle;
+    color: #ff682c;
+}
+#texto{
+    position: absolute;
+    width: 415px;
+    height: 600px;
+    top: 280px;
+    left: 700px;
+    text-align: justify;
+    font-family: Oswald;
+}
+p{
+    text-indent: 10px;
+}
+#foo3{
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    top: 1280px;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+#mision{
+    position: absolute;
+    top: 950px;
+    left: 700px;
+    text-align: justify;
+    font-family: Dk canoodle;
+    color: #ff682c;
+    font-size: 20px;
+}
+#min{
+    position: absolute;
+    width: 415px;
+    height: auto;
+    top: 1050px;
+    left: 700px;
+    text-align: justify;
+    font-family: Oswald;
+}
